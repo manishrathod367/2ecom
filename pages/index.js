@@ -1,5 +1,5 @@
 import Products from "../components/Products";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 import "tailwindcss";
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center gap-6">
           {[1, 2, 3].map((review) => (
             <div key={review} className="bg-white p-6 shadow rounded-lg max-w-sm">
-              <p className="text-gray-700">"Great products and fast shipping!"</p>
+              <p className="text-gray-700">Great products and fast shipping!</p>
               <h4 className="mt-2 font-semibold">- Customer {review}</h4>
             </div>
           ))}
